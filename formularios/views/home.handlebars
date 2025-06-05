@@ -1,0 +1,19 @@
+<h1>formulario</h1>
+
+<form action="/enviar" method="POST">
+    <label for="nombre">nombre
+    </label>
+    <input type="text" name="nombre" required>
+
+    <label for="email">email</label>
+    <input type="email" name="email"required>
+    <label for="mensaje">mensaje</label>
+    <textarea name="mensaje" rows="4" required></textarea>
+
+    <label for="">motivo del contacto: </label> <br>
+    <input type="checkbox" name="intereses" value="consulta tecnica">consulta tecnica <br>
+    <input type="checkbox" name="intereses" value="presupuesto">presupuesto <br>
+    <input type="checkbox" name="intereses" value="soporte">soporte <br>
+
+    <button type="submit">enviar</button>
+</form>
